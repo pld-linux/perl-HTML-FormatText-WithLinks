@@ -9,7 +9,7 @@ Summary:	HTML::FormatText::WithLinks - HTML to text conversion with links as foo
 Summary(pl.UTF-8):	HTML::FormatText::WithLinks - konwersja HTML-a do tekstu z odnośnikami jako przypisami
 Name:		perl-HTML-FormatText-WithLinks
 Version:	0.14
-Release:	1
+Release:	2
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
@@ -65,6 +65,7 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc Changes
+%dir %{perl_vendorlib}/HTML/FormatText
 %{perl_vendorlib}/HTML/FormatText/WithLinks.pm
 %{_mandir}/man3/HTML::FormatText::WithLinks.3pm*
 %{_examplesdir}/%{name}-%{version}
