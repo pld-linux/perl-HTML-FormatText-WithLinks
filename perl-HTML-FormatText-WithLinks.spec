@@ -8,13 +8,13 @@
 Summary:	HTML::FormatText::WithLinks - HTML to text conversion with links as footnotes
 Summary(pl.UTF-8):	HTML::FormatText::WithLinks - konwersja HTML-a do tekstu z odnośnikami jako przypisami
 Name:		perl-HTML-FormatText-WithLinks
-Version:	0.14
-Release:	2
+Version:	0.15
+Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/HTML/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	264a1436883d20b81e669c65a1f97367
+# Source0-md5:	e048c41f600895182df327c6ce9b2cc0
 URL:		http://search.cpan.org/dist/HTML-FormatText-WithLinks/
 BuildRequires:	perl-Module-Build
 BuildRequires:	perl-devel >= 1:5.8.0
