@@ -4,7 +4,6 @@
 #
 %define		pdir	HTML
 %define		pnam	FormatText-WithLinks
-%include	/usr/lib/rpm/macros.perl
 Summary:	HTML::FormatText::WithLinks - HTML to text conversion with links as footnotes
 Summary(pl.UTF-8):	HTML::FormatText::WithLinks - konwersja HTML-a do tekstu z odnośnikami jako przypisami
 Name:		perl-HTML-FormatText-WithLinks
